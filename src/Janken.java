@@ -7,11 +7,11 @@ public class Janken{
   String[] hands={"グー","チョキ","パー"};/*playerの入力数字とCPUがランダムに出した数字にグー チョキ　パーをつける 0=グー 1=チョキ 2=パー*/
   System.out.println("あなた : "+hands[player]+" コンピューター: "+hands[cpu]);//playerが入力したじゃんけんの手とCPUが出したじゃんけんの手を画面に表示する。
   if(player==cpu){//あいこパターン
-    System.out.prontln("あいこです");
+    System.out.println("あいこです");
   }else if(
     (player==0&&cpu==1)||
     (player==1&&cpu==2)||
-    (player--2&&cpu==0)
+    (player==2&&cpu==0)
     ){//勝ちパターン
     System.out.println("あなたの勝ち");
   }else{
