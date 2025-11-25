@@ -13,9 +13,9 @@ public class Janken{
        (player==1&&cpu==2)||
        (player==2&&cpu==0)
        ){//勝ちパターン               
-     System.out.println("あなたの勝ち");
+     System.out.println("あなたの勝ち!");
      }else{
-     System.out.println("あなたの負け"); //負けパターン
+     System.out.println("あなたの負け!"); //負けパターン
        }
   }
 }
