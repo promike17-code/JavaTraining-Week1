@@ -18,5 +18,5 @@ public class Janken {
     }else{
      System.out.println("あなたの負け"); //負けパターン
       }
-     }
+  }
 }
